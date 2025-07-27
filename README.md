@@ -55,7 +55,7 @@ Explore curated resources for mastering Data Structures, Algorithms, System Desi
 
 ## Data Structures & Algorithm Problems
 
-Explore by Topic:
+Explore by Topic: (TBD)
 
 - [Array, Linked List, Stack, Heap, Tree, Queue](./Arrays)
 - [Hash Table](./Hash_Tables)
