@@ -30,19 +30,20 @@ Tech interviews are evolving, but the fundamentals remain the same. The problems
 8. How to Use This Repo
 9. How to Contribute
 10. When to Contribute
+11. How to Set Up This Repository
 
 ## [Complexities & Big O Explained](https://www.bigocheatsheet.com/)
 
 Understanding time and space complexity is crucial for writing efficient code and acing interviews. Here’s a high-level overview:
 
-| Complexity | Big O | Examples |
-|------------|-------|----------|
-| Constant   | O(1)  | Hash table lookup, Accessing array element |
-| Logarithmic| O(log n) | Binary search, Searching in sorted array |
-| Linearithmic| O(n log n) | Merge sort, Heap sort |
-| Quadratic  | O(n^2) | Bubble sort, Selection sort |
-| Cubic      | O(n^3) | Floyd-Warshall, 3-nested loops |
-| Factorial  | O(n!)  | Traveling Salesman, permutations |
+| Complexity   | Big O      | Examples                                   |
+|--------------|------------|--------------------------------------------|
+| Constant     | O(1)       | Hash table lookup, Accessing array element |
+| Logarithmic  | O(log n)   | Binary search, Searching in sorted array   |
+| Linearithmic | O(n log n) | Merge sort, Heap sort                      |
+| Quadratic    | O(n^2)     | Bubble sort, Selection sort                |
+| Cubic        | O(n^3)     | Floyd-Warshall, 3-nested loops             |
+| Factorial    | O(n!)      | Traveling Salesman, permutations           |
 
 Further Reading:
 
@@ -72,11 +73,10 @@ Sharpen your skills and benchmark yourself with real contest problems:
 - [Google Kickstart](https://codingcompetitions.withgoogle.com/kickstart)
 
 ## [System Design](https://github.com/neerazz/faang-system-design/blob/master/README.md)
-> [Tips for System Design](https://github.com/neerazz/faang-system-design/blob/master/Tips_for_system_design.md)
+
 > - [4 Week Basics SD (LLD & HSD) Roadmap](https://github.com/neerazz/faang-system-design/blob/master/4%20Weeks%20basics%20SD.md)
 > - [4 Weeks System Design Roadmap](https://github.com/neerazz/faang-system-design/blob/master/4%20week%20system%20design%20plan.md)
 
-**General Design Questions:**
 - [Zoom](https://github.com/neerazz/faang-system-design/blob/master/Resources/architecture-diagrams/Zoom%20System%20Design.png)
 - [Facebook](https://github.com/neerazz/faang-system-design/blob/master/Resources/architecture-diagrams/Facebook%20System%20Design.png)
 - [Hotel Booking](https://github.com/neerazz/faang-system-design/blob/master/Resources/architecture-diagrams/Hoel%20Booking%20System.png)
@@ -98,7 +98,6 @@ Sharpen your skills and benchmark yourself with real contest problems:
 - [Design Movie Ticket System](https://github.com/neerazz/faang-system-design/tree/master/oops/designs/movieTicketSystem)
 - [Design Pharmacy Shop](https://github.com/neerazz/faang-system-design/tree/master/oops/designs/pharmacyshop)
 
-> **TODO:**
 > - [Design Vending Machine](https://leetcode.com/discuss/interview-question/982302/FANNG-question-OOP-please-post-your-solutions-to-this)
 
 ---
@@ -127,6 +126,23 @@ Sharpen your skills and benchmark yourself with real contest problems:
 2. If your solution is asymptotically faster than the one in the main branch.
 3. If your algorithm is of the same time complexity but with reduced code size, comment out the original solution and make a pull request with your solution.
 
-## License
+## How to Set Up This Repository
+
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/neerazz/MAMAA.git
+    ```
+
+2. **Install dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. **Navigate to a topic folder and explore the solutions.** Each `.py` file is a self-contained solution to a problem.
+
+4. **Run the code to test it:**
+    ```bash
+    python ./Arrays/two_sum.py
+    ```
 
 This project is licensed under the MIT License.
